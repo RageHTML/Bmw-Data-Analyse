@@ -19,16 +19,6 @@ O dataset contém as seguintes colunas:
 
 ---
 
-## Estrutura do Projeto
-
-projeto-bmw/
-│
-├── bmw.csv # Dataset original
-├── s.py # Script de análise em Python
-├── .gitignore # Arquivos e pastas ignorados pelo Git
-└── README.md # Este arquivo
-
----
 
 ## Passos Realizados
 
