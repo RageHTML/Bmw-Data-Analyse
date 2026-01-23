@@ -5,7 +5,7 @@
 ## Contato
 
 - **LinkedIn:** [Deyvid Martins](https://www.linkedin.com/in/deyvid-martins/)  
-- **E-mail:** deyvidmail24@example.com
+- **E-mail:** deyvidmail24@gmail.com
 
 ## Descrição
 Este projeto tem como objetivo analisar um dataset de carros da BMW, identificando padrões de preços, quilometragem e outros atributos relevantes para auxiliar na tomada de decisão. O projeto é um exemplo prático de **Ciência de Dados**, incluindo limpeza, organização, análise e visualização de dados.
