@@ -10,7 +10,15 @@
 ## Descrição
 Este projeto analisa dados de vendas de veículos BMW com o objetivo de identificar quais faixas de preço, modelos e anos apresentam maior velocidade de venda, fornecendo suporte à gestão de estoque e à tomada de decisões comerciais.
 
-O dataset contém as seguintes colunas:
+## Métricas calculadas:
+
+Média de preço por modelo e ano, para apoiar decisões sobre estoque e promoção.
+
+Média de milhagem por modelo e ano, para avaliar desgaste e valor percebido pelo cliente.
+
+Distribuição de preço por faixa, para identificar os segmentos de maior oferta e demanda potencial.
+
+## O dataset contém as seguintes colunas:
 
 - `model` : Modelo do carro
 - `year` : Ano do modelo
