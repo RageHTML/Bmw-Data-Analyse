@@ -8,7 +8,7 @@
 - **E-mail:** deyvidmail24@gmail.com
 
 ## Descrição
-Este projeto tem como objetivo analisar um dataset de carros da BMW, identificando padrões de preços, quilometragem e outros atributos relevantes para auxiliar na tomada de decisão. O projeto é um exemplo prático de **Ciência de Dados**, incluindo limpeza, organização, análise e visualização de dados.
+Este projeto analisa dados de vendas de veículos BMW com o objetivo de identificar quais faixas de preço, modelos e anos apresentam maior velocidade de venda, fornecendo suporte à gestão de estoque e à tomada de decisões comerciais.
 
 O dataset contém as seguintes colunas:
 
