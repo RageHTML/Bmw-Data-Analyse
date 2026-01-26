@@ -10,6 +10,21 @@
 ## Descrição
 Este projeto analisa dados de vendas de veículos BMW com o objetivo de identificar quais faixas de preço, modelos e anos apresentam maior velocidade de venda, fornecendo suporte à gestão de estoque e à tomada de decisões comerciais.
 
+## Problema 
+Existe faixa de preco que vende mais rapido? 
+
+## Decisao Apoiada 
+A concensonaria pode priorizar comprar ou promocao de modelo quue giram mais rapido 
+
+## Beneficiario 
+Gerente de estoque 
+Diretor Comercial 
+
+# Hipoteses ou causas provaveis 
+preco
+ano
+modelo
+
 ## Métricas calculadas:
 
 Média de preço por modelo e ano, para apoiar decisões sobre estoque e promoção.
