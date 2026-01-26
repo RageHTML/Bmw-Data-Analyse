@@ -33,6 +33,9 @@ Média de milhagem por modelo e ano, para avaliar desgaste e valor percebido pel
 
 Distribuição de preço por faixa, para identificar os segmentos de maior oferta e demanda potencial.
 
+## Media de preco, por modelo e ano
+Optei pela média pois o objetivo era identificar tendência geral de preço, e não valores típicos individuais.
+
 ## O dataset contém as seguintes colunas:
 
 - `model` : Modelo do carro
@@ -50,10 +53,11 @@ Distribuição de preço por faixa, para identificar os segmentos de maior ofert
 
 ## Passos Realizados
 
-### 1. Limpeza dos Dados
-- Remoção de **linhas duplicadas**
-- Verificação de valores ausentes
-- Conversão de tipos de dados (ex.: `price` para inteiro)
+### 1. Análise Descritiva dos Dados
+Foi realizada uma análise descritiva das variáveis numéricas do conjunto de dados.  
+Observou-se que todas as colunas numéricas apresentam o mesmo número de registros (`count = 10.781`), indicando ausência de valores nulos.  
+Isso garante consistência estatística no cálculo das métricas, como a média de preço por modelo e ano.
+
 
 ### 2. Organização e Análise
 - **Preço médio por modelo** calculado usando pandas (`groupby('model')['price'].mean()`)
