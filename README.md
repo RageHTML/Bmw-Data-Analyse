@@ -11,30 +11,28 @@
 Este projeto analisa dados de vendas de veículos BMW com o objetivo de identificar quais faixas de preço, modelos e anos apresentam maior velocidade de venda, fornecendo suporte à gestão de estoque e à tomada de decisões comerciais.
 
 ## Problema 
-Existe faixa de preco que vende mais rapido? 
+Como o preço médio varia de acordo com o ano e características do veículo?
 
 ## Decisao Apoiada 
-A concensonaria pode priorizar comprar ou promocao de modelo quue giram mais rapido 
+Ajustar preços de carros com características similares
+
+Identificar carros potencialmente supervalorizados ou subvalorizados
 
 ## Beneficiario 
-Gerente de estoque 
-Diretor Comercial 
+Gerente da concessionária
 
 # Hipoteses ou causas provaveis 
 preco
 ano
 modelo
 
-## Métricas calculadas:
+## Métricas:
 
-Média de preço por modelo e ano, para apoiar decisões sobre estoque e promoção.
+Preço médio por ano
 
-Média de milhagem por modelo e ano, para avaliar desgaste e valor percebido pelo cliente.
+Preço médio por modelo
 
-Distribuição de preço por faixa, para identificar os segmentos de maior oferta e demanda potencial.
-
-## Media de preco, por modelo e ano
-Optei pela média pois o objetivo era identificar tendência geral de preço, e não valores típicos individuais.
+Preço médio por tipo de combustível / transmissão
 
 ## O dataset contém as seguintes colunas:
 
