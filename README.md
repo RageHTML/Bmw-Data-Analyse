@@ -8,31 +8,27 @@
 - **E-mail:** deyvidmail24@gmail.com
 
 ## Descrição
-Este projeto analisa dados de vendas de veículos BMW com o objetivo de identificar quais faixas de preço, modelos e anos apresentam maior velocidade de venda, fornecendo suporte à gestão de estoque e à tomada de decisões comerciais.
-
+Neste projeto foi realizada uma análise estatística exploratória para compreender a relação entre as variáveis do dataset de carros e o preço dos veículos. Como a estatística trabalha com tendências e não com certezas absolutas, os resultados apresentados indicam padrões observados nos dados.
 ## Problema 
-Como o preço médio varia de acordo com o ano e características do veículo?
+Entender como as variáveis mileage, engineSize e tax estão relacionadas com o price dos veículos.
 
 ## Decisao Apoiada 
-Ajustar preços de carros com características similares
-
-Identificar carros potencialmente supervalorizados ou subvalorizados
+Com base na análise estatística exploratória, o projeto apoia decisões relacionadas à precificação de veículos a partir de suas características. Os resultados indicam que a quilometragem tende a ter um impacto negativo relevante no preço, enquanto o tamanho do motor apresenta uma relação positiva moderada com o valor dos veículos. Já a variável tax demonstra uma influência mais fraca sobre o preço. Dessa forma, a análise auxilia na compreensão de quais fatores tendem a pesar mais na definição do valor de mercado de um carro, servindo como suporte para decisões de compra, venda ou segmentação de veículos.
 
 ## Beneficiario 
-Gerente da concessionária
+Este projeto beneficia pessoas interessadas na análise de dados e no mercado automotivo, como estudantes, analistas iniciantes, compradores e vendedores de veículos, ao oferecer suporte analítico para entender como características dos carros tendem a influenciar o preço, auxiliando a tomada de decisão baseada em dados.
 
 # Hipoteses ou causas provaveis 
-preco
-ano
-modelo
+Veículos com maior quilometragem (mileage) tendem a apresentar preços mais baixos, devido ao maior nível de uso e desgaste ao longo do tempo.
+
+Carros com motores maiores (engineSize) tendem a ter preços mais elevados, pois geralmente estão associados a maior desempenho e valor de mercado.
+
+O imposto (tax) tende a apresentar uma relação positiva fraca com o preço, podendo estar indiretamente associado a características como motorização ou ano do veículo.
+
+O preço dos veículos tende a ser influenciado por um conjunto de fatores, e não por uma única variável isolada.
 
 ## Métricas:
-
-Preço médio por ano
-
-Preço médio por modelo
-
-Preço médio por tipo de combustível / transmissão
+Neste projeto foi utilizada a correlação de Pearson como métrica estatística para avaliar a relação entre as variáveis mileage, engineSize e tax com o price, permitindo identificar a direção e a intensidade das associações entre essas variáveis.
 
 ## O dataset contém as seguintes colunas:
 
@@ -51,31 +47,13 @@ Preço médio por tipo de combustível / transmissão
 
 ## Passos Realizados
 
-### 1. Análise Descritiva dos Dados
-Foi realizada uma análise descritiva das variáveis numéricas do conjunto de dados.  
-Observou-se que todas as colunas numéricas apresentam o mesmo número de registros (`count = 10.781`), indicando ausência de valores nulos.  
-Isso garante consistência estatística no cálculo das métricas, como a média de preço por modelo e ano.
+### 1. Carregamento e inspeção inicial do dataset para compreensão das variáveis disponíveis.
 
+### 2. Seleção das variáveis mileage, engineSize, tax e price para análise.
 
-### 2. Organização e Análise
-- **Preço médio por modelo** calculado usando pandas (`groupby('model')['price'].mean()`)
-- **Carro mais barato individual** identificado
-- **Carros com maior quilometragem** destacados para análise
+### 3. Aplicação da correlação de Pearson como método estatístico para avaliar a relação entre as variáveis selecionadas.
 
-### 3. Visualização
-- Gráficos gerados com matplotlib:
-  - **Preço médio por modelo**
-  - **Carro mais barato destacado**
-  - **Carros com maior quilometragem** sobrepostos no gráfico
-- Anotações e cores usadas para **destacar insights importantes**.
-
-### 4. Uso de Git e GitHub
-- Repositório inicializado com `git init`
-- `.gitignore` criado para **ignorar venv e arquivos temporários**
-- Adicionados apenas os arquivos essenciais (`bmw.csv`, `s.py`, `.gitignore`)
-- Push para o GitHub realizado
-
----
+### 4. Interpretação dos coeficientes de correlação para identificar tendências e padrões nos dados.
 
 ## Como Rodar o Projeto
 
